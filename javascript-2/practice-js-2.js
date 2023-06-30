@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "Git is a version control system.";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = "Github is a website that allows people to collaborate on code using Git.";
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+let init = {
+	description: "Init is a Git command that 'initializes' a repo.",
+	code: "git init"
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+let clone = {
+	description: "Clone's function is to allow one to duplicate (or 'clone') a repo, or parts of one.",
+	code: "git clone . ./clone/"
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+let status = {
+	description: "Status's function is to give the current 'status' of uncommitted changes.",
+	code: "git status"
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+let add = {
+	description: "Add's function is to 'add' (or 'stage') what files are to be committed.",
+	code: "git add ."
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +84,10 @@
 */
 
 //CODE HERE
+let commit = {
+	description: "Commit's role is to finalize changes made to files.",
+	code: 'git commit -m "Made some changes!"'
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +96,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+	description: "Remote Add manages a way to sync code to and from a local and remote repository.",
+	code: "git remote add origin https://.../repo.git"
+};
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +108,7 @@
 */
 
 //CODE HERE
+let push = {
+	description: "Push sends all new commits to a designated remote repository.",
+	code: "git push"
+};

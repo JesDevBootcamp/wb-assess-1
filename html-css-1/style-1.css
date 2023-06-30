@@ -56,8 +56,10 @@ main article img {
   height: 140px;
   margin: 0 16px 16px 0;
   float: left;
+  clear: right;
 }
 main article img.float-right {
   margin: 0 0 16px 16px;
   float: right;
+  clear: left;
 }

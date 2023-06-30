@@ -1,0 +1,64 @@
+/* Style 1: Styles for the HTML, CSS assessment one mockup. */
+
+body {
+	margin: 0;
+}
+
+#header {
+	display: block;
+	text-align: center;
+	background-color: salmon;
+	padding: 64px 18px 24px;
+	overflow: hidden;
+	& > div {
+		display: inline-block;
+		width: 980px;
+		max-width: 100%;
+		text-align: initial;
+	}
+	:is(h1, nav a):not(:last-child) {
+		margin: 0 24px 4px 0;
+	}
+	h1 {
+		display: inline-block;
+		font-size: 32px;
+		margin: 0;
+	}
+	nav {
+		display: inline-block;
+		font-size: 24px;
+		a {
+			color: black;
+			&:not(:hover, :focus) {
+				text-decoration-line: none;
+			}
+		}
+	}
+}
+
+main {
+	display: block;
+	max-width: 980px;
+	padding: 12px;
+	margin: auto;
+	article {
+		display: block;
+		border: 4px dotted black;
+		padding: 8px 16px;
+		margin-bottom: 8px;
+		overflow: hidden;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		img {
+			display: block;
+			height: 140px;
+			margin: 0 16px 16px 0;
+			float: left;
+			&.float-right {
+				margin: 0 0 16px 16px;
+				float: right;
+			}
+		}
+	}
+}
